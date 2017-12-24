@@ -30,7 +30,7 @@ requirejs.config({
     "popperjs": "https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min",
     "popper-loader": "lib/popper-loader",
     "storejs": "https://cdn.rawgit.com/marcuswestin/store.js/2b486f1f/dist/store.modern.min",
-    "underscorejs": "http://underscorejs.org/underscore-min",
+    "underscorejs": "https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore-min",
     "vue": "https://vuejs.org/js/vue",
   }
 });
