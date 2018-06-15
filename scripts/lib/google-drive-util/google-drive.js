@@ -45,6 +45,7 @@ define(["gapi"], function(gapi) {
 
     test() {
       gapi.client.drive.files.list({
+        "q": "'0B5_gTW3cdGKbN2hLU0NwempGZDg' in parents",
         "orderBy": "viewedByMeTime desc",
         "pageSize": 10,
         "fields": "files(id, name)"
